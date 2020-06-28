@@ -8,3 +8,30 @@
     margin-top: 50px;
     padding: 30px;
 }
+
+.list-unstyled{
+    margin-top: 50px;
+}
+.media{
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.btnn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-bottom: 20px;
+  }
+  .warningg {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .warningg:hover {
+    background: #ff9800;
+    color: white;
+  }
