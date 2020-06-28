@@ -1514,9 +1514,16 @@ ol {
  download image setion 
  -------------------*/
 
- .dow_img{
+ .dow_img1{
 	width: 250px;
-	height: 250px;
+	height: 200px;
+	float: right;
+	padding: 8px;
+ }
+
+ .dow_img2{
+	width: 300px;
+	height: 300px;
 	float: right;
 	padding: 8px;
  }
