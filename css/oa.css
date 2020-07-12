@@ -35,6 +35,13 @@
     background: #ff9800;
     color: white;
   }
- 
-
+ .card-group{
+   padding: 100px;
+ }
+.card-text{
+  text-align: justify;
+}
+.atext{
+  text-align: justify;
+}
 
