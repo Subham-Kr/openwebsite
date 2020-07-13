@@ -44,4 +44,6 @@
 .atext{
   text-align: justify;
 }
-
+.mr-3{
+  border-radius: 30px;
+}
