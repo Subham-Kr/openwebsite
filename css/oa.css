@@ -48,3 +48,6 @@
   border-radius: 30px;
   border: 2px solid black;
 }
+.card-columns{
+  padding: 70px;
+}
