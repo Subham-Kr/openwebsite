@@ -27,13 +27,14 @@
     margin-bottom: 20px;
   }
   .warningg {
-    border-color: #ff9800;
-    color: orange;
+    border-color:gray;
+    border-radius: 50px;
+
   }
   
   .warningg:hover {
-    background: #ff9800;
-    color: white;
+    background:grey;
+  
   }
  .card-group{
    padding: 100px;
