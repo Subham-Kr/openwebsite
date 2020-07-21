@@ -102,3 +102,14 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+function answerc () {
+	if (document.getElementById("naam").value==null || document.getElementById("naam").value=="" && document.getElementById("pata").value==null || document.getElementById("pata").value=="" && document.getElementById("bol").value==null || document.getElementById("bol").value=="" ){
+		
+		alert("Feild can't be blank");
+	}
+		
+	else{
+		alert("THANKS FOR REPLY");
+	}
+	
+}	
