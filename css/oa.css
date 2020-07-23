@@ -17,25 +17,17 @@
     padding: 30px;
 }
 .btnn {
-    border: 2px solid black;
-    background-color: white;
+    border: 2px solid #ffb320;
+    background-color: #ffb320;
     color: black;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 45%;
+    margin-left: 30px;
     margin-bottom: 20px;
+    border-radius: 50px;  
   }
-  .warningg {
-    border-color:gray;
-    border-radius: 50px;
 
-  }
-  
-  .warningg:hover {
-    background:grey;
-  
-  }
  .card-group{
    padding: 100px;
  }
@@ -56,3 +48,4 @@
   margin-top: -100px;
 }
 
+#more {display: none;}
