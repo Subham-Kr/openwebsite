@@ -293,7 +293,29 @@
 <!-- Footer section end -->
 
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAjrEalkAEC_seu05ueccH8J2oMqX0TpFE",
+    authDomain: "gamingzone-bce13.firebaseapp.com",
+    databaseURL: "https://gamingzone-bce13.firebaseio.com",
+    projectId: "gamingzone-bce13",
+    storageBucket: "gamingzone-bce13.appspot.com",
+    messagingSenderId: "1071269818570",
+    appId: "1:1071269818570:web:6e036c56c6cb30c04c4433",
+    measurementId: "G-GK88PZ9Z0V"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   
 
 
