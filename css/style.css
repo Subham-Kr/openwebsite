@@ -1550,3 +1550,63 @@ ol {
   #myBtn:hover {
 	background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+  /*-----------
+	Search Bar
+ --------------*/
+ 
+ .search1{
+	 float: right;
+	 margin-top: auto;
+	 margin-bottom: auto;
+ }
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+	height: 60px;
+    background-color: gray;
+    border-radius: 30px;
+	padding: 10px;
+	float: right;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: black;
+    line-height: 40px;
+    transition: width 0.5s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 200px;
+    caret-color: black;
+	transition: width 0.4s linear;
+    }
+
+
+    .searchbar:hover > .search_icon{
+    background: grey;
+	color: white;
+	float: left;
+	cursor: pointer;
+    
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+	color: black;
+	text-decoration: none;
+	}
+	
