@@ -9,8 +9,10 @@
 	<link rel="stylesheet" href="style.css">
 	<meta name="description" content="Gaming Zone">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<!-- Stylesheets -->
 
@@ -93,17 +95,68 @@
 	</div>
 
 
+<!------ Seach bar   ------------------            ------ - ---->
+
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+	  <div class="searchbar">
+		<input class="search_input" id="myInput" onkeyup="myFunction2()" type="text" name="" placeholder="Search...">
+		<a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+	  </div>
+	</div>
+  </div>
+  
+  
+  <ul id="myUL">
+	<div class="dsb">Featured</div>
+	<li><a id="link" href="#element_target">GTA 5</a></li>
+	<li><a id="link" href="#half">Half Life</a></li>
+	<li><a id="link" href="#witcher">The Witcher 3: Wild Hunt</a></li>
+	<li><a id="link" href="#cod">Call Of Duty 4:Modern Warfare</a></li>
+	<li><a id="link" href="#sims">The Sims</a></li>
+	<li><a id="link" href="#farcry">Far Cry 5</a></li>
+	<li><a id="link" href="#rise">Rise of the Tomb Raider</a></li>
+	<li><a id="link" href="#justcause">Just Cause 3</a></li>
+	<li><a id="link" href="#codmw3">Call Of Duty: Modern Warfare 3</a></li>
+	<li><a id="link" href="#formula1">Formulla 1: 2011</a></li>
+	<li><a id="link" href="#forzahor">Forza Horizon 4</a></li>
+	<li><a id="link" href="#fortnite">Fortnite</a></li>
+	<li><a id="link" href="#dirt">Dirt Rally 2</a></li>
+	<li><a id="link" href="#pubg">PUBG</a></li>
+	<li><a id="link" href="#acbf">Assassin's Creed 4: Black Flag</a></li>
+	<li><a id="link" href="#fm4">Forza Motorsport 4</a></li>
+	<li><a id="link" href="#csgo">Conter Strike: Global Offensive</a></li>
+	<li><a id="link" href="#nfsmw">Need For Speed: Most Wanted</a></li>
+	<li><a id="link" href="#x2">XCOM 2</a></li>
+	<li><a id="link" href="#d2">DOTA 2</a></li>
+	<li><a id="link" href="#stellaris">Stellaris</a></li>
+	<li><a id="link" href="#nfsh">Need For Speed: Heat</a></li>
+	<li><a id="link" href="#s2">Starcraft II: Leagacy Of The Void</a></li>
+	<li><a id="link" href="#w3">Warcraft III: Region Of Chaos</a></li>
 
 
-	<div class="container">
+  </ul>
 
+
+
+
+
+
+
+
+<!------ Seach bar   ------------------            ------ - ---->
+
+
+<div class="container">
 		<div class="row">
+
+
 			<div class="col-lg-4 col-md-6">
 				<div class="recent-game-item">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/gta5.webp">
 
 					</div>
-					<div class="rgi-content ">
+					<div class="rgi-content "  id="element_target">
 						<h5>GTA 5</h5>
 						<p>Franklin, a street hustler looking for tangible opportunities and serious money; Michael, a
 							professional ex-con whose retirement is less rosy than he figured it would be; and Trevor, a
@@ -118,7 +171,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="half">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/half.webp">
 
 					</div>
@@ -136,7 +189,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="witcher">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/witcher3.webp">
 
 					</div>
@@ -154,14 +207,8 @@
 				</div>
 			</div>
 
-		</div>
-	</div>
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="cod">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/cod4.webp">
 
 					</div>
@@ -180,7 +227,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="sims">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/sims.webp">
 
 					</div>
@@ -198,7 +245,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="farcry">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/far5.webp">
 
 					</div>
@@ -215,19 +262,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
 				<div class="recent-game-item">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/rise.webp">
 
 					</div>
-					<div class="rgi-content ">
+					<div class="rgi-content " id="rise">
 						<h5>Rise of the Tomb Raider</h5>
 						<p>Rise of the Tomb Raider is a third-person action-adventure game in which players control Lara
 							Croft, who is on a quest to discover the legendary city of Kitezh. Combat is a major
@@ -246,7 +286,7 @@
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/just3.webp">
 
 					</div>
-					<div class="rgi-content">
+					<div class="rgi-content" id="justcause">
 						<h5>Just Cause 3</h5>
 						<p>Just Cause 3 is an action-adventure game with a third-person perspective. It is set in an
 							open world environment on the fictional Mediterranean island of Medici. The world size is
@@ -261,7 +301,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="codmw3">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/codmw3.webp">
 
 					</div>
@@ -278,15 +318,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="formula1">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/f1.webp">
 
 					</div>
@@ -305,7 +338,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="forzahor">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/forza4.webp">
 
 					</div>
@@ -323,7 +356,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="fortnite">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/fortnite.webp">
 
 					</div>
@@ -340,18 +373,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-
-
-	<div class="container">
-
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+        	<div class="col-lg-4 col-md-6">
+				<div class="recent-game-item" id="dirt">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/dirt.webp">
-
 					</div>
 					<div class="rgi-content ">
 						<h5>Dirt Rally 2</h5>
@@ -369,7 +393,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="pubg">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/pubg.webp">
 
 					</div>
@@ -388,7 +412,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="acbf">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/creed4.webp">
 
 					</div>
@@ -406,16 +430,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="fm4">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/motorsport4.webp">
 
 					</div>
@@ -435,7 +451,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="csgo">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/csgo.webp">
 
 					</div>
@@ -454,7 +470,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="nfsmw">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/nfsmw.webp">
 
 					</div>
@@ -472,16 +488,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="x2">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/xcom2.webp">
 
 					</div>
@@ -501,7 +509,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="d2">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/dota2.webp">
 
 					</div>
@@ -520,7 +528,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="stellaris">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/stellaris.webp">
 
 					</div>
@@ -538,17 +546,8 @@
 					</div>
 				</div>
 			</div>
-
-		</div>
-	</div>
-
-
-
-	<div class="container">
-
-		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="nfsh">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/nfsheat.webp">
 
 					</div>
@@ -566,7 +565,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="s2">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/starcraft2.webp">
 
 					</div>
@@ -583,7 +582,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="recent-game-item">
+				<div class="recent-game-item" id="w3">
 					<div class="rgi-thumb set-bg" data-setbg="coimg/download/warcraft3.webp">
 
 					</div>
@@ -599,6 +598,7 @@
 					</div>
 				</div>
 			</div>
+		
 		</div>
 	</div>
 
@@ -623,18 +623,12 @@
 
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-		crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
-
-
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	
+	  <script src="js/main.js"></script>
+	
 </body>
 
 </html>
