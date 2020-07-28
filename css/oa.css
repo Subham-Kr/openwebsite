@@ -55,7 +55,7 @@
   margin-top: 50px;
   height: 60px;
   background-color: #353b48;
-  border-radius: 30px;
+  border-radius: 40px;
   padding: 10px;
   }
 
@@ -72,7 +72,7 @@
 
   .searchbar:hover > .search_input{
   padding: 0 10px;
-  width: 450px;
+  width: 280px;
   caret-color:red;
   transition: width 0.4s linear;
   }
@@ -127,4 +127,12 @@
     background-color: red;
     width: 75px;
     margin-bottom: 10px; 
+  }
+  @media (max-width: 500px) {
+    #myUL {
+      margin: 100px;
+      height: 275px;
+     
+    }
+
   }
