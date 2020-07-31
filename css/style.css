@@ -4,6 +4,9 @@ body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
 
 h1,
@@ -1114,6 +1117,7 @@ ol {
  /*-----------------
   Go to Top Button
 --------------------*/
+
 
   /*-----------
 	Search Bar
